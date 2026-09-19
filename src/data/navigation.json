@@ -1,0 +1,10 @@
+{
+  "items": [
+    { "id": "experience", "label": { "en": "Experience", "es": "Experiencia" } },
+    { "id": "projects", "label": { "en": "Projects", "es": "Proyectos" } },
+    { "id": "tech", "label": { "en": "Tech", "es": "Tecnologias" } },
+    { "id": "education", "label": { "en": "Education", "es": "Educacion" } },
+    { "id": "about", "label": { "en": "About", "es": "Sobre mi" } },
+    { "id": "contact", "label": { "en": "Contact", "es": "Contacto" } }
+  ]
+}

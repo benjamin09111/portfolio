@@ -1,0 +1,85 @@
+{
+  "en": {
+    "navigation": "Main navigation",
+    "engineering": "ENGINEERING",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "download": "Download CV",
+    "results": "Measured results",
+    "selectedProjects": "Selected projects",
+    "focus": "Evals / Agents / Multimodal",
+    "skills": "Skills & focus",
+    "writing": "Writing",
+    "contactLogistics": "Contact & logistics",
+    "plainText": "Plain text / Markdown",
+    "demo": "Live demo",
+    "repository": "Repository",
+    "writeup": "Read write-up",
+    "source": "Source",
+    "language": "Language",
+    "actions": {
+      "linkedin": "Visit LinkedIn",
+      "github": "Visit GitHub",
+      "about": "More about me",
+      "pending": "Profile not configured yet",
+      "close": "Close modal"
+    },
+    "about": {
+      "title": "About me",
+      "introduction": "A personal introduction will go here: who I am, what motivates me, and what I want to contribute as an AI Engineer.",
+      "sections": [
+        {
+          "title": "My journey",
+          "text": "Here I will share how my interest in technology began and the key steps in my education and experience."
+        },
+        {
+          "title": "How I work",
+          "text": "Here I will describe how I solve problems, collaborate with teams, and turn ideas into projects."
+        },
+        {
+          "title": "Beyond code",
+          "text": "Here I will share my interests, activities, and what I enjoy learning outside work."
+        }
+      ]
+    },
+    "menuOpen": "Menu",
+    "menuClose": "Close"
+  },
+  "es": {
+    "navigation": "Navegación principal",
+    "engineering": "INGENIERÍA",
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "contact": "Contacto",
+    "download": "Descargar CV",
+    "results": "Resultados medidos",
+    "selectedProjects": "Proyectos destacados",
+    "focus": "Evaluaciones / Agentes / Multimodal",
+    "skills": "Habilidades y enfoque",
+    "writing": "Publicaciones",
+    "contactLogistics": "Contacto y disponibilidad",
+    "plainText": "Texto plano / Markdown",
+    "demo": "Demo en vivo",
+    "repository": "Repositorio",
+    "writeup": "Leer detalles",
+    "source": "Fuente",
+    "language": "Idioma",
+    "actions": {
+      "linkedin": "Visitar LinkedIn",
+      "github": "Visitar GitHub",
+      "about": "Saber más sobre mí",
+      "pending": "Perfil pendiente de configurar",
+      "close": "Cerrar modal"
+    },
+    "role": "Ingeniero de IA",
+    "skillCategories": {
+      "LLM & agents": "LLM y agentes",
+      "ML": "Aprendizaje automático",
+      "Backend & infra": "Backend e infraestructura",
+      "Evals & observability": "Evaluaciones y observabilidad"
+    },
+    "menuOpen": "Menú",
+    "menuClose": "Cerrar"
+  }
+}

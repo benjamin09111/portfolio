@@ -1,0 +1,218 @@
+[
+  {
+    "slug": "web-bancaria",
+    "title": {
+      "en": "Bank Website",
+      "es": "Web Bancaria"
+    },
+    "description": {
+      "en": "Analytics dashboard for teams that need fast decisions and clear reporting.",
+      "es": "Panel de analiticas para equipos que necesitan decisiones rapidas e informes claros."
+    },
+    "category": "fullstack",
+    "image": "/projects/atlas.svg",
+    "stack": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "PostgreSQL"
+    ],
+    "links": [
+      {
+        "label": {
+          "en": "GitHub",
+          "es": "GitHub"
+        },
+        "href": "https://github.com/",
+        "icon": "github"
+      },
+      {
+        "label": {
+          "en": "Live",
+          "es": "Web"
+        },
+        "href": "https://example.com",
+        "icon": "globe"
+      }
+    ],
+    "featured": true,
+    "details": {
+      "info": {
+        "en": "Atlas Dashboard is an analytics console designed for high-performance data processing and real-time visualization of business-critical KPIs. It features interactive charts, drag-and-drop report layout customization, and user permission management.",
+        "es": "Atlas Dashboard es una consola analítica diseñada para el procesamiento de datos de alto rendimiento y la visualización en tiempo real de KPI críticos para el negocio. Cuenta con gráficos interactivos, personalización del diseño de informes mediante arrastrar y soltar, y gestión de permisos de usuario."
+      },
+      "whatIDid": {
+        "en": "I architected the SQL database schema and wrote optimized PostgreSQL queries for real-time aggregation. I built dynamic charting interfaces using custom SVG graphics for premium responsiveness, and implemented a JWT-based session security layer.",
+        "es": "Diseñé el esquema de base de datos SQL y escribí consultas optimizadas en PostgreSQL para agregación en tiempo real. Construí interfaces de gráficos dinámicos utilizando gráficos SVG personalizados para una respuesta premium, e implementé una capa de seguridad de sesión basada en JWT."
+      },
+      "whatILearned": {
+        "en": "I mastered advanced data fetching patterns in Next.js, including optimistic updates for dashboard layout states. I also learned strategies to handle high-frequency re-renders in charts, and optimized server side rendering (SSR) responses.",
+        "es": "Dominé patrones avanzados de obtención de datos en Next.js, incluyendo actualizaciones optimistas para los estados de diseño del panel. También aprendí estrategias para manejar renderizados de alta frecuencia en gráficos y optimicé las respuestas de renderizado del lado del servidor (SSR)."
+      },
+      "improvements": {
+        "en": "I would implement a Redis caching layer to offload heavy aggregation queries on historical datasets, and integrate WebSocket connections to push live data updates instead of polling.",
+        "es": "Implementaría una capa de caché con Redis para reducir la carga de consultas de agregación pesadas en conjuntos de datos históricos, e integraría conexiones WebSocket para enviar actualizaciones de datos en vivo en lugar de realizar consultas periódicas (polling)."
+      }
+    }
+  },
+  {
+    "slug": "nova-studio",
+    "title": {
+      "en": "Nova Studio",
+      "es": "Nova Studio"
+    },
+    "description": {
+      "en": "A portfolio builder for creative professionals with structured content and visuals.",
+      "es": "Un constructor de portafolios para creativos con contenido estructurado y visuales."
+    },
+    "category": "frontend",
+    "image": "/projects/nova.svg",
+    "stack": [
+      "React",
+      "Framer Motion",
+      "Tailwind",
+      "Zod"
+    ],
+    "links": [
+      {
+        "label": {
+          "en": "YouTube",
+          "es": "YouTube"
+        },
+        "href": "https://youtube.com",
+        "icon": "youtube"
+      },
+      {
+        "label": {
+          "en": "GitHub",
+          "es": "GitHub"
+        },
+        "href": "https://github.com/",
+        "icon": "github"
+      }
+    ],
+    "featured": true,
+    "details": {
+      "info": {
+        "en": "Nova Studio is a drag-and-drop website and portfolio builder designed specifically for artists, photographers, and writers. It allows professionals to build and publish beautiful, responsive galleries and writeups directly from their browser.",
+        "es": "Nova Studio es un constructor de sitios web y portafolios mediante arrastrar y soltar, diseñado específicamente para artistas, fotógrafos y escritores. Permite a los profesionales crear y publicar galerías y redacciones hermosas y responsivas directamente desde su navegador."
+      },
+      "whatIDid": {
+        "en": "I created the drag-and-drop page builder canvas with React, developed a live preview mode using iframe communication, and structured project schemas with Zod to allow exporting and importing configuration files safely.",
+        "es": "Creé el lienzo del constructor de páginas de arrastrar y soltar con React, desarrolló un modo de vista previa en vivo utilizando comunicación iframe, y estructuró esquemas de proyectos con Zod para permitir la exportación e importación de archivos de configuración de forma segura."
+      },
+      "whatILearned": {
+        "en": "I deepened my understanding of browser drag-and-drop APIs and touch events, learned how to construct nested tree layout states in React without performance lags, and gained experience with local file serialization.",
+        "es": "Profundicé mi comprensión de las API de arrastrar y soltar del navegador y los eventos táctiles, aprendí cómo construir estados de diseño de árboles anidados en React sin retrasos de rendimiento y obtuve experiencia con la serialización de archivos locales."
+      },
+      "improvements": {
+        "en": "I would add an offline-first drafting mode that synchronizes local modifications when connection is restored, and introduce automatic image optimization (WebP/AVIF conversion) upon uploading.",
+        "es": "Añadiría un modo de borrador primero sin conexión que sincronice las modificaciones locales cuando se restablezca la conexión, e introduciría la optimización automática de imágenes (conversión a WebP/AVIF) al subirlas."
+      }
+    }
+  },
+  {
+    "slug": "orbit-tasks",
+    "title": {
+      "en": "Orbit Tasks",
+      "es": "Orbit Tasks"
+    },
+    "description": {
+      "en": "Task manager focused on clarity, keyboard flow and project organization.",
+      "es": "Gestor de tareas enfocado en claridad, flujo de teclado y organizacion de proyectos."
+    },
+    "category": "productivity",
+    "image": "/projects/orbit.svg",
+    "stack": [
+      "TypeScript",
+      "React",
+      "IndexedDB",
+      "Vitest"
+    ],
+    "links": [
+      {
+        "label": {
+          "en": "GitHub",
+          "es": "GitHub"
+        },
+        "href": "https://github.com/",
+        "icon": "github"
+      }
+    ],
+    "featured": false,
+    "details": {
+      "info": {
+        "en": "Orbit Tasks is a keyboard-driven productivity app focused on task management and workflow organization. Designed to reduce friction, it uses local storage for near-zero latency and instant search commands.",
+        "es": "Orbit Tasks es una aplicación de productividad controlada por teclado enfocada en la gestión de tareas y la organización del flujo de trabajo. Diseñada para reducir la fricción, utiliza el almacenamiento local para lograr una latencia casi nula y comandos de búsqueda instantáneos."
+      },
+      "whatIDid": {
+        "en": "I built the custom keyboard shortcuts engine and Command Menu (Omnibar), designed the IndexedDB persistence layer for local-first reliability, and configured a full testing environment using Vitest.",
+        "es": "Construí el motor de atajos de teclado personalizados y el menú de comandos (Omnibar), diseñé la capa de persistencia de IndexedDB para una confiabilidad de primer plano local y configuré un entorno de prueba completo utilizando Vitest."
+      },
+      "whatILearned": {
+        "en": "I learned how to construct local-first data stores, handle database versioning migrations within IndexedDB, and mock keyboard user events in Unit Tests.",
+        "es": "Aprendí a construir almacenes de datos locales, manejar migraciones de versiones de bases de datos dentro de IndexedDB y simular eventos de usuario de teclado en pruebas unitarias."
+      },
+      "improvements": {
+        "en": "I would integrate CRDTs (Conflict-free Replicated Data Types) for multi-device sync, and create a cross-platform companion mobile app using React Native.",
+        "es": "Integraría CRDT (Conflict-free Replicated Data Types) para la sincronización entre múltiples dispositivos y crearía una aplicación móvil complementaria multiplataforma usando React Native."
+      }
+    }
+  },
+  {
+    "slug": "pulse-api",
+    "title": {
+      "en": "Pulse API",
+      "es": "Pulse API"
+    },
+    "description": {
+      "en": "API and admin layer for content-driven applications with simple maintenance.",
+      "es": "API y capa administrativa para aplicaciones guiadas por contenido con mantenimiento simple."
+    },
+    "category": "backend",
+    "image": "/projects/pulse.svg",
+    "stack": [
+      "Node.js",
+      "PostgreSQL",
+      "Prisma",
+      "Docker"
+    ],
+    "links": [
+      {
+        "label": {
+          "en": "GitHub",
+          "es": "GitHub"
+        },
+        "href": "https://github.com/",
+        "icon": "github"
+      },
+      {
+        "label": {
+          "en": "Video",
+          "es": "Video"
+        },
+        "href": "https://youtube.com",
+        "icon": "youtube"
+      }
+    ],
+    "featured": false,
+    "details": {
+      "info": {
+        "en": "Pulse API is a high-performance backend routing engine and administration panel built to distribute structured content quickly across headless platforms. It includes automated documentation features and API keys logging.",
+        "es": "Pulse API es un motor de enrutamiento backend de alto rendimiento y un panel de administración creado para distribuir contenido estructurado rápidamente en plataformas headless. Incluye funciones de documentación automatizada y registro de claves API."
+      },
+      "whatIDid": {
+        "en": "I developed the REST API routing logic in Node.js, built database connection middleware with Prisma, containerized the database and server with Docker, and implemented API key authentication and logging.",
+        "es": "Desarrollé la lógica de enrutamiento de la API REST en Node.js, construí el middleware de conexión a la base de datos con Prisma, contenedoricé la base de datos y el servidor con Docker, e implementé la autenticación y el registro de claves API."
+      },
+      "whatILearned": {
+        "en": "I gained solid skills in Docker container orchestration, middleware design patterns for security and rate limiting, and relational query optimization through Prisma schemas.",
+        "es": "Obtuve sólidas habilidades en la orquestación de contenedores Docker, patrones de diseño de middleware para seguridad y limitación de velocidad, y optimización de consultas relacionales a través de esquemas de Prisma."
+      },
+      "improvements": {
+        "en": "I would set up a Redis-based API rate limiting system to protect against brute-force attacks, and generate automatic Swagger/OpenAPI documentation directly from TypeScript types.",
+        "es": "Configuraría un sistema de limitación de velocidad de API basado en Redis para proteger contra ataques de fuerza bruta y generaría documentación automática de Swagger/OpenAPI directamente desde los tipos de TypeScript."
+      }
+    }
+  }
+]

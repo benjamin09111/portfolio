@@ -1,0 +1,47 @@
+{
+  "experience": {
+    "eyebrow": { "en": "Experience first", "es": "Experiencia primero" },
+    "title": { "en": "Work history", "es": "Historial laboral" },
+    "description": {
+      "en": "A concise timeline that shows impact, context and stack without unnecessary noise.",
+      "es": "Una linea de tiempo concisa que muestra impacto, contexto y stack sin ruido innecesario."
+    }
+  },
+  "projects": {
+    "eyebrow": { "en": "Selected work", "es": "Trabajo seleccionado" },
+    "title": { "en": "Projects", "es": "Proyectos" },
+    "description": {
+      "en": "Mock content with strong structure, real filtering and uniform cards ready to replace with your actual work.",
+      "es": "Contenido mock con estructura solida, filtros reales y cards uniformes listas para reemplazar por tu trabajo real."
+    },
+    "categories": {
+      "all": { "en": "All", "es": "Todos" },
+      "frontend": { "en": "Frontend", "es": "Frontend" },
+      "fullstack": { "en": "Full-stack", "es": "Full-stack" },
+      "backend": { "en": "Backend", "es": "Backend" },
+      "productivity": { "en": "Productivity", "es": "Productividad" }
+    }
+  },
+  "technologies": {
+    "eyebrow": { "en": "Core stack", "es": "Stack principal" },
+    "title": { "en": "Technologies", "es": "Tecnologias" },
+    "description": {
+      "en": "Grouped by area so the portfolio stays readable, honest and easy to update.",
+      "es": "Agrupadas por area para que el portafolio siga siendo legible, honesto y facil de actualizar."
+    }
+  },
+  "education": {
+    "eyebrow": { "en": "Learning path", "es": "Ruta de aprendizaje" },
+    "title": { "en": "Education", "es": "Educacion" },
+    "description": {
+      "en": "Formal and informal learning that supports practical product work.",
+      "es": "Aprendizaje formal e informal que respalda trabajo practico de producto."
+    }
+  },
+  "about": {
+    "eyebrow": { "en": "Who I am", "es": "Quien soy" }
+  },
+  "contact": {
+    "eyebrow": { "en": "Hire me", "es": "Contratame" }
+  }
+}

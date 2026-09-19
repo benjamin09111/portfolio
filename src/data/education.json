@@ -1,0 +1,32 @@
+[
+  {
+    "kind": { "en": "Degree", "es": "Carrera" },
+    "title": { "en": "Software Engineering", "es": "Ingenieria de software" },
+    "institution": { "en": "University Program", "es": "Programa universitario" },
+    "period": { "en": "2020 - 2024", "es": "2020 - 2024" },
+    "description": {
+      "en": "Focused on system design, software quality and modern web development.",
+      "es": "Enfoque en diseno de sistemas, calidad de software y desarrollo web moderno."
+    }
+  },
+  {
+    "kind": { "en": "Certification", "es": "Certificacion" },
+    "title": { "en": "Advanced React Patterns", "es": "Patrones avanzados de React" },
+    "institution": { "en": "Online course", "es": "Curso online" },
+    "period": { "en": "2024", "es": "2024" },
+    "description": {
+      "en": "Component composition, state management and performance oriented UI design.",
+      "es": "Composicion de componentes, gestion de estado y UI orientada a rendimiento."
+    }
+  },
+  {
+    "kind": { "en": "Self-taught", "es": "Autodidacta" },
+    "title": { "en": "Cloud and deployment basics", "es": "Bases de cloud y despliegue" },
+    "institution": { "en": "Independent learning", "es": "Aprendizaje independiente" },
+    "period": { "en": "2023 - Present", "es": "2023 - Actualidad" },
+    "description": {
+      "en": "Shipping apps with CI-friendly workflows, containers and static hosting.",
+      "es": "Publicando apps con flujos compatibles con CI, contenedores y hosting estatico."
+    }
+  }
+]

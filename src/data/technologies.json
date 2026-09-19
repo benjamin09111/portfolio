@@ -1,0 +1,29 @@
+[
+  {
+    "category": { "en": "Frontend", "es": "Frontend" },
+    "items": [
+      { "name": { "en": "React", "es": "React" }, "icon": "code" },
+      { "name": { "en": "Next.js", "es": "Next.js" }, "icon": "rocket" },
+      { "name": { "en": "TypeScript", "es": "TypeScript" }, "icon": "type" },
+      { "name": { "en": "Tailwind CSS", "es": "Tailwind CSS" }, "icon": "wind" }
+    ]
+  },
+  {
+    "category": { "en": "Backend", "es": "Backend" },
+    "items": [
+      { "name": { "en": "Node.js", "es": "Node.js" }, "icon": "server" },
+      { "name": { "en": "PostgreSQL", "es": "PostgreSQL" }, "icon": "database" },
+      { "name": { "en": "Prisma", "es": "Prisma" }, "icon": "layers" },
+      { "name": { "en": "REST APIs", "es": "REST APIs" }, "icon": "globe" }
+    ]
+  },
+  {
+    "category": { "en": "Tooling", "es": "Herramientas" },
+    "items": [
+      { "name": { "en": "Git", "es": "Git" }, "icon": "git" },
+      { "name": { "en": "Docker", "es": "Docker" }, "icon": "boxes" },
+      { "name": { "en": "Zod", "es": "Zod" }, "icon": "badgeCheck" },
+      { "name": { "en": "Figma", "es": "Figma" }, "icon": "palette" }
+    ]
+  }
+]

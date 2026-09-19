@@ -1,0 +1,14 @@
+{
+  "skipLink": { "en": "Skip to content", "es": "Saltar al contenido" },
+  "language": { "en": "Language", "es": "Idioma" },
+  "copyEmail": { "en": "Copy email", "es": "Copiar email" },
+  "copiedEmail": { "en": "Email copied", "es": "Email copiado" },
+  "navLabel": { "en": "Section navigation", "es": "Navegacion de secciones" },
+  "viewAll": { "en": "View all", "es": "Ver todo" },
+  "searchPlaceholder": { "en": "Search projects", "es": "Buscar proyectos" },
+  "noResults": { "en": "No projects match this filter.", "es": "No hay proyectos para este filtro." },
+  "filterLabel": { "en": "Filter by category", "es": "Filtrar por categoria" },
+  "all": { "en": "All", "es": "Todos" },
+  "stack": { "en": "Stack", "es": "Stack" },
+  "featured": { "en": "Featured", "es": "Destacado" }
+}

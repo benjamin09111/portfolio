@@ -1,0 +1,80 @@
+[
+  {
+    "company": { "en": "Northstar Studio", "es": "Northstar Studio" },
+    "role": { "en": "Full-stack developer", "es": "Desarrollador Full-stack" },
+    "period": { "en": "2024 - Present", "es": "2024 - Actualidad" },
+    "summary": {
+      "en": "Built client-facing dashboards and internal tools with a focus on speed and consistency.",
+      "es": "Construí paneles para clientes y herramientas internas con foco en velocidad y consistencia."
+    },
+    "bullets": {
+      "en": [
+        "Defined reusable UI patterns for product teams.",
+        "Improved perceived performance with optimized rendering.",
+        "Collaborated with design and product on delivery scope."
+      ],
+      "es": [
+        "Definí patrones reutilizables de UI para equipos de producto.",
+        "Mejoré el rendimiento percibido con renderizado optimizado.",
+        "Colaboré con diseño y producto en el alcance de entrega."
+      ]
+    },
+    "learned": {
+      "en": "Advanced state management and performance optimization on large frontend apps.",
+      "es": "Optimización avanzada de rendimiento y gestión de estados complejos a gran escala."
+    },
+    "stack": ["Next.js", "TypeScript", "Tailwind", "Zod"]
+  },
+  {
+    "company": { "en": "Aster Labs", "es": "Aster Labs" },
+    "role": { "en": "Frontend developer", "es": "Desarrollador Frontend" },
+    "period": { "en": "2023 - 2024", "es": "2023 - 2024" },
+    "summary": {
+      "en": "Delivered responsive landing pages and reusable component systems for marketing and product sites.",
+      "es": "Entregué landing pages responsivas y sistemas de componentes reutilizables para marketing y producto."
+    },
+    "bullets": {
+      "en": [
+        "Shipped responsive layouts across desktop and mobile.",
+        "Kept the design system small and easy to extend.",
+        "Worked with performance budgets and accessibility checks."
+      ],
+      "es": [
+        "Publiqué layouts responsivos para desktop y mobile.",
+        "Mantuve el sistema de diseño pequeño y fácil de extender.",
+        "Trabajé con presupuestos de rendimiento y accesibilidad."
+      ]
+    },
+    "learned": {
+      "en": "Designing unified component systems and ensuring web accessibility compliance.",
+      "es": "Creación de librerías de componentes reutilizables y cumplimiento estricto de accesibilidad web."
+    },
+    "stack": ["React", "Tailwind", "Storybook", "Vitest"]
+  },
+  {
+    "company": { "en": "Freelance", "es": "Freelance" },
+    "role": { "en": "Independent web developer", "es": "Desarrollador Web Independiente" },
+    "period": { "en": "2022 - 2023", "es": "2022 - 2023" },
+    "summary": {
+      "en": "Built small business websites and automation-friendly admin panels.",
+      "es": "Construí sitios para pequeños negocios y paneles administrativos fáciles de automatizar."
+    },
+    "bullets": {
+      "en": [
+        "Translated business needs into simple interfaces.",
+        "Reduced friction for content updates with data-driven pages.",
+        "Focused on clarity, trust and conversion."
+      ],
+      "es": [
+        "Traduje necesidades de negocio en interfaces simples.",
+        "Reduje fricción para actualizar contenido con páginas guiadas por datos.",
+        "Enfoque en claridad, confianza y conversión."
+      ]
+    },
+    "learned": {
+      "en": "Managing project lifecycles independently and translating business requirements into code.",
+      "es": "Gestión del ciclo completo de proyectos y traducción ágil de requisitos a software funcional."
+    },
+    "stack": ["HTML", "CSS", "JavaScript", "Node.js"]
+  }
+]

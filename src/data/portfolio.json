@@ -1,0 +1,43 @@
+{
+  "name": "Benjamin Salazar",
+  "role": "AI Engineer",
+  "positioning": "",
+  "location": null,
+  "email": null,
+  "github": null,
+  "linkedin": null,
+  "about": {
+    "title": "Sobre mí",
+    "introduction": "Aquí irá una presentación personal: quién soy, qué me motiva y qué quiero aportar como AI Engineer.",
+    "sections": [
+      {
+        "title": "Mi trayectoria",
+        "text": "Aquí contaré cómo comenzó mi interés por la tecnología y los principales pasos de mi formación y experiencia."
+      },
+      {
+        "title": "Cómo trabajo",
+        "text": "Aquí describiré mi forma de resolver problemas, colaborar con equipos y convertir ideas en proyectos."
+      },
+      {
+        "title": "Más allá del código",
+        "text": "Aquí compartiré mis intereses, actividades y lo que disfruto aprender fuera del trabajo."
+      }
+    ]
+  },
+  "cv": null,
+  "url": null,
+  "description": "",
+  "knowsAbout": [],
+  "metrics": [],
+  "projects": [],
+  "skills": [
+    { "category": "LLM & agents", "description": "" },
+    { "category": "ML", "description": "" },
+    { "category": "Backend & infra", "description": "" },
+    { "category": "Evals & observability", "description": "" }
+  ],
+  "background": "",
+  "experience": [],
+  "notes": [],
+  "logistics": []
+}

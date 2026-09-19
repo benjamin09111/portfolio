@@ -1,0 +1,30 @@
+{
+  "eyebrow": {
+    "en": "Remote-ready developer portfolio",
+    "es": "Portafolio listo para trabajo remoto"
+  },
+  "title": {
+    "en": "I build polished web products that feel fast, clear and reliable.",
+    "es": "Construyo productos web pulidos que se sienten rapidos, claros y confiables."
+  },
+  "summary": {
+    "en": "I focus on clean architecture, maintainable systems and interfaces that help teams ship real value.",
+    "es": "Me enfoco en arquitectura limpia, sistemas mantenibles e interfaces que ayudan a entregar valor real."
+  },
+  "typewriter": {
+    "en": ["Full-stack developer", "Frontend engineer", "Problem solver"],
+    "es": ["Desarrollador full-stack", "Ingeniero frontend", "Resolutor de problemas"]
+  },
+  "primaryAction": {
+    "en": "See projects",
+    "es": "Ver proyectos"
+  },
+  "secondaryAction": {
+    "en": "Download CV",
+    "es": "Descargar CV"
+  },
+  "emailLabel": {
+    "en": "Click to copy my email",
+    "es": "Haz clic para copiar mi email"
+  }
+}

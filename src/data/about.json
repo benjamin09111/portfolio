@@ -1,0 +1,27 @@
+{
+  "heading": {
+    "en": "About me",
+    "es": "Sobre mi"
+  },
+  "summary": {
+    "en": "I am a developer who likes turning complex problems into practical interfaces that teams can maintain without friction.",
+    "es": "Soy un desarrollador que disfruta convertir problemas complejos en interfaces practicas que los equipos puedan mantener sin friccion."
+  },
+  "bullets": {
+    "en": [
+      "I care about clean structure and readable code.",
+      "I prefer reusable components and data-driven content.",
+      "I build with a strong focus on UX, performance and accessibility."
+    ],
+    "es": [
+      "Me importa la estructura limpia y el codigo legible.",
+      "Prefiero componentes reutilizables y contenido guiado por datos.",
+      "Construyo con foco en UX, rendimiento y accesibilidad."
+    ]
+  },
+  "stats": [
+    { "value": "3+", "label": { "en": "years building interfaces", "es": "anos construyendo interfaces" } },
+    { "value": "10+", "label": { "en": "projects shipped", "es": "proyectos publicados" } },
+    { "value": "100%", "label": { "en": "content driven", "es": "contenido desde JSON" } }
+  ]
+}

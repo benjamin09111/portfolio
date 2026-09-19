@@ -1,0 +1,51 @@
+{
+  "name": "Benjamin Salazar",
+  "role": {
+    "en": "Full-stack developer",
+    "es": "Desarrollador full-stack"
+  },
+  "location": {
+    "en": "Available for remote roles worldwide",
+    "es": "Disponible para roles remotos en cualquier lugar"
+  },
+  "email": "benjamin@example.com",
+  "cv": {
+    "href": "/cv.pdf",
+    "label": {
+      "en": "Download CV",
+      "es": "Descargar CV"
+    }
+  },
+  "social": [
+    {
+      "label": {
+        "en": "GitHub",
+        "es": "GitHub"
+      },
+      "href": "https://github.com/",
+      "icon": "github"
+    },
+    {
+      "label": {
+        "en": "LinkedIn",
+        "es": "LinkedIn"
+      },
+      "href": "https://linkedin.com/",
+      "icon": "globe"
+    }
+  ],
+  "seo": {
+    "title": {
+      "en": "Benjamin Salazar | Full-stack developer portfolio",
+      "es": "Benjamin Salazar | Portafolio de desarrollador full-stack"
+    },
+    "description": {
+      "en": "Portfolio focused on experience, projects, technologies and education with bilingual content and a polished dark aesthetic.",
+      "es": "Portafolio centrado en experiencia, proyectos, tecnologias y educacion con contenido bilingue y una estetica oscura cuidada."
+    },
+    "keywords": {
+      "en": ["portfolio", "developer", "full-stack", "frontend", "remote"],
+      "es": ["portafolio", "desarrollador", "full-stack", "frontend", "remoto"]
+    }
+  }
+}
