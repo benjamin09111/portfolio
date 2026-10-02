@@ -44,7 +44,9 @@
       ]
     },
     "menuOpen": "Menu",
-    "menuClose": "Close"
+    "menuClose": "Close",
+    "inDevelopment": "In development",
+    "activeProject": "Active"
   },
   "es": {
     "navigation": "Navegación principal",
@@ -80,6 +82,8 @@
       "Evals & observability": "Evaluaciones y observabilidad"
     },
     "menuOpen": "Menú",
-    "menuClose": "Cerrar"
+    "menuClose": "Cerrar",
+    "inDevelopment": "En desarrollo",
+    "activeProject": "Activo"
   }
 }

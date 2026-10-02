@@ -22,7 +22,7 @@ export function toPublicHome(p: Portfolio) {
     projects: [...p.projects]
       .sort((a, b) => order[a.category] - order[b.category])
       .map(
-        ({ slug, category, title, problem, stack, metrics, demo, repo }) => ({
+        ({
           slug,
           category,
           title,
@@ -31,6 +31,17 @@ export function toPublicHome(p: Portfolio) {
           metrics,
           demo,
           repo,
+          active,
+        }) => ({
+          slug,
+          category,
+          title,
+          problem,
+          stack,
+          metrics,
+          demo,
+          repo,
+          active: Boolean(active),
         }),
       ),
   };

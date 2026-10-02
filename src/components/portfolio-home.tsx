@@ -76,9 +76,17 @@ export function PortfolioHome({ p }: { p: PublicHome }) {
         </div>
         {projects.map((project, i) => (
           <article className="project" key={project.slug}>
-            <p className="eyebrow">
-              0{i + 1} / {project.category}
-            </p>
+            <div className="project-header">
+              <p className="eyebrow">
+                0{i + 1} / {project.category}
+              </p>
+              {project.active && (
+                <span className="project-status">
+                  <span className="project-status-dot" aria-hidden="true" />
+                  {t.inDevelopment}
+                </span>
+              )}
+            </div>
             <h3>
               <a href={`/projects/${project.slug}`}>{project.title}</a>
             </h3>

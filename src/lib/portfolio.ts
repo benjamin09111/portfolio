@@ -38,7 +38,7 @@ export function portfolioMarkdown() {
       ),
       "## Selected projects",
       ...projects.flatMap((project) => [
-        `### ${project.title}`,
+        `### ${project.title}${project.active ? " (In development)" : ""}`,
         project.problem,
         `Stack: ${project.stack.join(", ")}.`,
         ...project.metrics.map(

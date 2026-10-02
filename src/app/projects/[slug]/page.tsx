@@ -32,7 +32,15 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
     <main id="main" className="portfolio writeup">
       <Link href="/#projects">← All projects</Link>
       <header>
-        <p className="eyebrow">Engineering case study / {project.category}</p>
+        <div className="project-heading-meta">
+          <p className="eyebrow">Engineering case study / {project.category}</p>
+          {project.active && (
+            <span className="project-status">
+              <span className="project-status-dot" aria-hidden="true" />
+              In development
+            </span>
+          )}
+        </div>
         <h1>{project.title}</h1>
         <p>{project.problem}</p>
         <p className="stack">Stack: {project.stack.join(" · ")}</p>

@@ -141,6 +141,12 @@ export function ProjectsSection({ language }: { language: Language }) {
                       <Pill className="border-accent/30 bg-accent/5 text-[10px] py-0.5 px-2 text-accent">
                         {project.featured ? getLocalizedText(ui.featured, language) : getLocalizedText(sections.projects.categories[project.category as keyof typeof sections.projects.categories], language)}
                       </Pill>
+                      {project.active && (
+                        <span className="inline-flex items-center gap-1.5 text-[10px] text-accent font-mono uppercase tracking-wider">
+                          <span className="h-1.5 w-1.5 rounded-full bg-accent animate-pulse" />
+                          {language === "es" ? "En desarrollo" : "In development"}
+                        </span>
+                      )}
                     </div>
 
                     <h3 className="text-lg font-bold text-text leading-snug">{getLocalizedText(project.title, language)}</h3>

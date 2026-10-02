@@ -50,6 +50,8 @@ export const uiSchema = z.object({
   all: localizedTextSchema,
   stack: localizedTextSchema,
   featured: localizedTextSchema,
+  inDevelopment: localizedTextSchema.optional(),
+  active: localizedTextSchema.optional(),
 });
 
 export const heroSchema = z.object({
@@ -79,17 +81,24 @@ const projectDetailsSchema = z.object({
   improvements: localizedTextSchema,
 });
 
-const projectSchema = z.object({
-  slug: z.string(),
-  title: localizedTextSchema,
-  description: localizedTextSchema,
-  category: z.string(),
-  image: z.string(),
-  stack: z.array(z.string()),
-  links: z.array(linkSchema),
-  featured: z.boolean(),
-  details: projectDetailsSchema,
-});
+const projectSchema = z
+  .object({
+    slug: z.string(),
+    title: localizedTextSchema,
+    description: localizedTextSchema,
+    category: z.string(),
+    image: z.string(),
+    stack: z.array(z.string()),
+    links: z.array(linkSchema),
+    featured: z.boolean(),
+    active: z.boolean().optional().default(false),
+    isActive: z.boolean().optional(),
+    details: projectDetailsSchema,
+  })
+  .transform((item) => ({
+    ...item,
+    active: Boolean(item.active || item.isActive),
+  }));
 
 const technologyItemSchema = z.object({
   name: localizedTextSchema,

@@ -10,5 +10,7 @@
   "filterLabel": { "en": "Filter by category", "es": "Filtrar por categoria" },
   "all": { "en": "All", "es": "Todos" },
   "stack": { "en": "Stack", "es": "Stack" },
-  "featured": { "en": "Featured", "es": "Destacado" }
+  "featured": { "en": "Featured", "es": "Destacado" },
+  "inDevelopment": { "en": "In development", "es": "En desarrollo" },
+  "active": { "en": "Active", "es": "Activo" }
 }

@@ -17,24 +17,31 @@ const metric = z.object({
   context: z.string().min(1),
   source: externalUrl,
 });
-const project = z.object({
-  slug: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
-  category: z.enum(["evals", "agent", "multimodal"]),
-  title: z.string().min(1),
-  problem: z.string().min(1),
-  stack: z.array(z.string()).min(1),
-  metrics: z.array(metric).min(2).max(3),
-  demo: externalUrl,
-  repo: externalUrl,
-  writeup: z.object({
-    context: z.string().min(1),
-    approach: z.string().min(1),
-    evaluation: z.string().min(1),
-    failures: z.string().min(1),
-    tradeoffs: z.string().min(1),
-    limitations: z.string().min(1),
-  }),
-});
+const project = z
+  .object({
+    slug: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
+    category: z.enum(["evals", "agent", "multimodal"]),
+    title: z.string().min(1),
+    problem: z.string().min(1),
+    stack: z.array(z.string()).min(1),
+    metrics: z.array(metric).min(2).max(3),
+    demo: externalUrl,
+    repo: externalUrl,
+    active: z.boolean().optional().default(false),
+    isActive: z.boolean().optional(),
+    writeup: z.object({
+      context: z.string().min(1),
+      approach: z.string().min(1),
+      evaluation: z.string().min(1),
+      failures: z.string().min(1),
+      tradeoffs: z.string().min(1),
+      limitations: z.string().min(1),
+    }),
+  })
+  .transform((item) => ({
+    ...item,
+    active: Boolean(item.active || item.isActive),
+  }));
 export const portfolioSchema = z
   .object({
     name: z.string(),
